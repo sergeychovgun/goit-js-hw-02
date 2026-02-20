@@ -13,7 +13,7 @@ function getShippingCost(country) {
             return "Shipping to Jamaica will cost 120 credits"
             break;
         default:
-            return "Shipping to this country is not available"
+            return "Sorry, there is no delivery to your country"
     }
 }
 console.log(getShippingCost("Australia")); // "Shipping to Australia will cost 170 credits"
